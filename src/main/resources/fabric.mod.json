@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "applejam",
+  "version": "${version}",
+  "name": "AppleJam",
+  "description": "Adds inventory jam (buffering keys while having a menu open) to macOS",
+  "authors": [{
+    "name": "Pe3ep",
+    "contact": {
+      "homepage": "https://pe3epwithyou.cc"
+    }
+  }],
+  "contact": {
+    "issues": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/applejam/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cc.pe3epwithyou.applejam.AppleJam"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
