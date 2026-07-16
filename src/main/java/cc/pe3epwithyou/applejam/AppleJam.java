@@ -15,8 +15,8 @@ public class AppleJam implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         LOGGER.info("Initializing Apple Jam");
-        ScreenEvents.BEFORE_INIT.register((minecraft, screen, width, height) ->
-            ScreenEvents.remove(screen).register((screen1) -> onScreenClose(minecraft))
+        ScreenEvents.BEFORE_INIT.register((minecraft, screen, _, _) ->
+            ScreenEvents.remove(screen).register((_) -> onScreenClose(minecraft))
         );
         LOGGER.info("Apple Jam initialized :)");
     }
