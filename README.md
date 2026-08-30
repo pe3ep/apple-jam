@@ -9,3 +9,5 @@ This is a very simple mod designed to do one thing: **add inventory jamming supp
 [According to the Minecraft Parkour Wiki](https://www.mcpk.wiki/wiki/Hotkey_Exploits), inventory jamming is _opening the inventory, holding Forward + Jump, then closing the inventory to consistently perform a 0-tick timing (jam)._
 
 This is vanilla game behavior on Windows and Linux (in most cases). Unfortunately, it does not work on macOS, which can make things more difficult for parkour enthusiasts on a Mac. This mod fixes that, allowing you to enjoy it too :3
+
+Apple Jam restores the forward, backward, left, right, jump, and sprint key states when closing a screen, so sprinting can be included in a jam as well.
