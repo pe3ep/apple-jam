@@ -28,6 +28,7 @@ public class AppleJam implements ClientModInitializer {
             restoreKey(client.options.keyRight, client);
             restoreKey(client.options.keyDown, client);
             restoreKey(client.options.keyJump, client);
+            restoreKey(client.options.keySprint, client);
         }
     }
 
